@@ -27,25 +27,25 @@
 </head>
 
 <body class="font-[Sora]">
-    <!-- <nav class="flex justify-between items-center w-[full] bg-[#FFF9F4] mx-auto px-36">
+    <nav class="flex justify-between items-center w-[full] bg-[#FFF9F4] mx-auto px-2 md:px-36">
         <div class="flex items-center gap-4 ">
             <img class="w-12 my-6" src="Images/logo-header.png" alt="cat">
-            <h1 class="text-xl font-bold">Pet<span class="text-[#FFDC26]">s</span>House</h1>
+            <h1 class="text-xl font-bold hidden md:block">Pet<span class="text-[#FFDC26]">s</span>House</h1>
         </div>
         <div>
             <ul class="flex gap-16 text-xl font-bold ">
-                <li><a class="hover:text-[#FFDC26]" href="">Find a pet</a></li>
-                <li><a class="hover:text-[#FFDC26]" href="">Breeds</a></li>
-                <li><a class="hover:text-[#FFDC26]" href="">Contact us</a></li>
+                <li><a class="hover:text-[#FFDC26] hidden md:block" href="">Find a pet</a></li>
+                <li><a class="hover:text-[#FFDC26] hidden md:block" href="">Breeds</a></li>
+                <li><a class="hover:text-[#FFDC26] hidden md:block" href="">Contact us</a></li>
             </ul>
         </div>
-        <div class="flex items-center gap-4">
-            <i class="fa-regular fa-bell "></i>
-            <i class="fa-solid fa-magnifying-glass"></i>
-            <button class="border border-[#FFDC26] text-xl font-bold px-6 py-2 rounded-lg hover:bg-[#FFDC26]">Login</button>
-            <button class="bg-[#FFDC26] text-xl font-bold px-6 py-2 rounded-lg hover:bg-[#FFF9F4] border border-[#FFDC26]">Register</button>
+        <div class="flex items-center gap-4 ">
+            <i class="fa-regular fa-bell hidden md:block"></i>
+            <i class="fa-solid fa-magnifying-glass hidden md:block"></i>
+            <button class="border border-[#FFDC26] text-xl font-bold px-6 py-2 rounded-lg hover:bg-[#FFDC26] hidden md:block">Login</button>
+            <button class="bg-[#FFDC26] text-xl font-bold px-6 py-2 rounded-lg hover:bg-[#FFF9F4] border border-[#FFDC26] hidden md:block">Register</button>
         </div>
-    </nav> -->
+    </nav>
     <main class="font-[Sora] max-w-screen-2xl mx-auto px-4 md:px-16">
       
       <header class="bg-[url(/Images/cat-big.png)] bg-contain bg-no-repeat bg-center  md:py-24 h-screen">
@@ -66,7 +66,7 @@
         <div class="max-w-52 rounded-lg overflow-hidden bg-[#F9DF8A]">
           <img class=" bg-white p-3 block mx-auto mt-8 h-24 rounded-full" src="/Images/dog-cartoon.png" alt="Card 1">
           <div class="text-center  ">
-            <div class="font-bold text-xl mx-auto mt-6">Dog</div>
+            <div class="font-bold text-xl mx-auto mt-6 hover:text-gray-300"><a href="">Dog</a></div>
             <p class="text-gray-700 text-base mt-3 mb-8">3 items</p>
           </div>
         </div>
@@ -74,7 +74,7 @@
         <div class="max-w-52 rounded-lg overflow-hidden bg-[#F9DF8A]">
           <img class=" bg-white p-3 block mx-auto mt-8 h-24 rounded-full" src="/Images/cat-cartoon.png" alt="Card 2">
           <div class="text-center">
-            <div class="font-bold text-xl mx-auto mt-6">Cat</div>
+            <div class="font-bold text-xl mx-auto mt-6 hover:text-gray-300"><a href="">Cat</a></div>
             <p class="text-gray-700 text-base mt-3 mb-8">5 items</p>
           </div>
         </div>
@@ -82,7 +82,7 @@
         <div class="max-w-52 rounded-lg overflow-hidden bg-[#F9DF8A]">
           <img class=" bg-white p-3 block mx-auto mt-8 h-24 rounded-full" src="/Images/fish-cartoon.png" alt="Card 3">
           <div class="text-center">
-            <div class="font-bold text-xl mx-auto mt-6">Fish</div>
+            <div class="font-bold text-xl mx-auto mt-6 hover:text-gray-300"><a href="">Fish</a></div>
             <p class="text-gray-700 text-base mt-3 mb-8">45 items</p>
           </div>
         </div>
@@ -90,7 +90,7 @@
         <div class="max-w-52 rounded-lg overflow-hidden bg-[#F9DF8A]">
           <img class=" bg-white p-3 block mx-auto mt-8 h-24 rounded-full" src="/Images/bird-cartoon.png" alt="Card 4">
           <div class="text-center">
-            <div class="font-bold text-xl mx-auto mt-6">Birds</div>
+            <div class="font-bold text-xl mx-auto mt-6 hover:text-gray-300"><a href="">Birds</a></div>
             <p class="text-gray-700 text-base mt-3 mb-8">4 items</p>
           </div>
         </div>
@@ -98,7 +98,7 @@
         <div class="max-w-52 rounded-lg overflow-hidden bg-[#F9DF8A]">
           <img class=" bg-white p-3 block mx-auto mt-8 h-24 rounded-full" src="/Images/mouse-cartoon.png" alt="Card 5">
           <div class="text-center">
-            <div class="font-bold text-xl mx-auto mt-6">Small pet</div>
+            <div class="font-bold text-xl mx-auto mt-6 hover:text-gray-300 "><a href="">Small Pet</a>S</div>
             <p class="text-gray-700 text-base mt-3 mb-8">2 items</p>
           </div>
         </div>
@@ -106,7 +106,7 @@
         <div class="max-w-52 rounded-lg overflow-hidden bg-[#F9DF8A]">
           <img class=" bg-white p-3 block mx-auto mt-8 h-24 rounded-full" src="/Images/rabbit-cartoon.png" alt="Card 6">
           <div class="text-center">
-            <div class="font-bold text-xl mx-auto mt-6">Rabit</div>
+            <div class="font-bold text-xl mx-auto mt-6 hover:text-gray-300"><a href="">Rabbit</a></div>
             <p class="text-gray-700 text-base mt-3 mb-8">9 items</p>
           </div>
         </div>
@@ -114,8 +114,8 @@
       </section>
 
     </main>
-    <section class="mx-auto bg-[#FFF9F4] max-w-full md:justify-items-cente">
-    <div class="mx-auto  py-36 md:justify-items-cente">
+    <section class="mx-auto bg-[#FFF9F4] max-w-full md:grid justify-items-end ">
+    <div class="mx-auto  py-36">
       <h1 class="md:text-4xl font-black mb-10">Trending Pet Products</h1>
       <div class="md:flex gap-6"> 
         <div class="bg-[#F9DF8A] max-w-md rounded-lg px-8 pt-10">
@@ -208,6 +208,78 @@
       
     </div>
     </section>
+
+    <!--2 container bars -->
+    
+    <section class="max-w-screen-2xl mx-auto py-36 px-4 md:px-16">
+      
+      <h1 class="text-2xl-bold md:text-4xl font-black">Everyday low Price</h1>
+      <br>
+
+      <div class="gap-6 md:flex">
+
+      <div class="flex px-10 md:px-20 py-6 bg-gradient-to-r from-[#F8CCFB] to-[#ACD2FD] rounded-lg">
+        <div>
+          <p class="hidden md:block text-xl">Under Price</p>
+          <br>
+          <h2 class="text-2xl-bold md:text-4xl">Pet Grooming Mitt</h2>
+          <br>
+          <h3 class="hidden md:block text-2xl text-white">(Easy Hair Removal)</h3>
+          <br>
+          <h1 class="text-5xl md:text-6xl font-black">$9.00</h1>
+        </div>
+        <div>
+          <img class="" src="/Images/cute-dog-mid.png" alt="cute dog">
+        </div>
+      </div>
+
+      <div class="flex px-10 md:px-20 py-6 bg-gradient-to-r from-[#FFF9F4] to-[#F9DF8A] rounded-xl">
+        <div class="">
+          <h1 class="text-2xl-bold md:text-4xl">T-Shirt for Dogs</h1>
+          <br>
+          <h1 class="text-5xl md:text-6xl font-black text-[#FFFFFF]">$9.00</h1>
+        </div>
+        <div>
+        <img class="sm:h-56 md:h-96" src="/Images/cute-pet-small.png" alt="pet">
+        </div>
+      </div>
+    
+    </div>
+
+    </section>
+
+    <!-- footer -->
+
+    <footer class=" bg-[#FFDC26]  max-w-full md:flex justify-between items-center px-36 py-36">
+     
+      <div> 
+      <div class="flex items-center hover:text-gray-300">
+        <img src="/Images/logo-footer.png" alt="footer">
+        <h1 class="text-xl font-bold ">Pet<span class="text-[#ffffff]">s</span>House</h1>
+      </div>
+      <div class="pt-3">
+      <p class="text-xs text-gray-500 md:text-xl">Discover a world of treats, toys, and essentials handpicked for your furry friends</p>
+      </div>
+     </div>
+
+     <div>
+      <ul class="space-y-3">
+        <li><a href="#" class="hover:text-gray-300">Find a pet</a></li>
+        <li><a href="#" class="hover:text-gray-300">Breeds</a></li>
+        <li><a href="#" class="hover:text-gray-300">Contact</a></li>
+      </ul>
+    </div>
+
+     <div>
+      <h4 class="hover:text-gray-300">Follow Us</h1>
+        <i class="fa-brands fa-facebook hover:text-gray-300"></i>
+        <i class="fa-brands fa-instagram hover:text-gray-300"></i>
+        <i class="fa-brands fa-linkedin hover:text-gray-300"></i>
+        <i class="fa-brands fa-youtube hover:text-gray-300"></i>
+     </div>
+      
+    </footer>
+
 </body>
 
 </html>
